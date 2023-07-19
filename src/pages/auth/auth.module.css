@@ -1,0 +1,32 @@
+.authContainer {
+  background-color: #000000cc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.authContainer form {
+  background-color: #d0e3ff;
+  padding: 3em;
+  border-radius: 10px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.authContainer form h3 {
+  font-size: 26px;
+  text-align: center;
+}
+.authContainer form button {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  height: 40px;
+  background: #000000c7;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.authContainer form .belowText {
+  text-align: center;
+  font-size: 13px;
+}

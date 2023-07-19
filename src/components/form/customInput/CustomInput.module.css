@@ -1,0 +1,19 @@
+.inputGroup {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  margin-top: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.inputGroup input {
+  border: 0;
+  background-color: #fff;
+  min-width: 250px;
+  font-size: 15px;
+}
+.inputGroup input:focus {
+  outline: none;
+}
